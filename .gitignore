@@ -5,7 +5,6 @@ __pycache__/
 .aws-auth-patch.yml
 .ci-cd-codepipeline.cfn.yml
 .deployment.yml
-.simple_jwt_api.yml
 
 
 # OS generated files #
