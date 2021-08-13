@@ -1,28 +1,22 @@
-.DS_Store
-.env*
-.flaskenv
-*.pyc
-*.pyo
-env/
-env*
-dist/
-build/
-*.egg
-*.egg-info/
-_mailinglist
-.tox/
-.cache/
-.pytest_cache/
-.idea/
-docs/_build/
-__pycache__
+venv/
+.vscode/
+__pycache__/
 .env_file
+.aws-auth-patch.yml
+.ci-cd-codepipeline.cfn.yml
+.deployment.yml
+.simple_jwt_api.yml
 
-# Coverage reports
-htmlcov/
-.coverage
-.coverage.*
-*,cover
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Direnv
 .envrc
